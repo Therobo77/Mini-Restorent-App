@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPERATIONS</title>
+    <style>
+          #v-navbar{
+            display: flex;
+            height: 80px; 
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 30px;
+            background-color: aqua;
+        }
+        #v-navbar>div{
+            /* border: 1px solid; */
+            padding: 0px 20px 0px 20px;
+            border-radius: 30px;
+        }
+        #v-navbar>div:hover{
+            background-color: red;
+            color: white;
+        }
+        #main-content{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 30px;
+        }
+        #main-content>div{
+            border: 1px solid;
+            /* display: flex; */
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 300px;
+            height: 400px;
+            border-radius: 15px;
+            background-color: aquamarine;
+
+        }
+    </style>
+</head>
+<body>
+      <div id="v-navbar">
+        <div><h1><a href="../index.html">HOME</a></h1></div>
+        <div><h1><a href="dashboard.html">DASH-BOARD</a></h1></div>
+    </div>
+
+    <div id="main-content">
+
+    
+
+    <div>
+        <h1>Add Post</h1>
+
+        <input type="text" id="id" placeholder="id"><BR></BR>
+        <input type="url" id="image" placeholder="Image Url"><BR></BR>
+        <input type="text" id="title" placeholder="title"><BR></BR>
+        <input type="text" id="desc" placeholder="Description"><BR></BR>
+        <input type="number" id="price" placeholder="Price"><BR></BR>
+        <input type="number" id="rating" placeholder="Rating"><BR></BR>
+        <input type="text" id="author" placeholder="author"><BR></BR>
+        <button id="submit" onclick="addProduct()">submit</button>
+    </div>
+    
+    
+    <div>
+        <h1>Update Post</h1>
+        <input type="text" id="update_id" placeholder="id"><BR></BR>
+        <input type="url" id="update_image" placeholder="Image Url"><BR></BR>
+        <input type="text" id="update_title" placeholder="title"><BR></BR>
+        <input type="text" id="update_desc" placeholder="Description"><BR></BR>
+        <input type="number" id="update_price" placeholder="Price"><BR></BR>
+        <input type="number" id="update_rating" placeholder="Rating"><BR></BR>
+    <button onclick="UpdatePost()">Update Post</button>
+    </div>
+
+    
+    <div>
+        <h1>Delete Post</h1>
+        <input type="text" id="id_delete" placeholder="write Id to Delete"><BR></BR>
+        <button onclick="deletePost()">delete Post</button>
+    </div>
+
+
+</div>
+</body>
+</html>
+
+<script src="crud.js">
+
+</script>
+
+<!--  Image
+- Title
+- Description
+- Price
+- Ratings
+- You can add some additional info as well to make it look more realistic.
+
+8. Implement pagination: Show 5 restaurants per page. -->

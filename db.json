@@ -1,0 +1,62 @@
+{
+  "posts": [
+    {
+      "id": "3",
+      "image": "https://i1.wp.com/www.foodbap.com/wp-content/uploads/2017/10/Pizza.jpg?w=1366&ssl=1",
+      "title": "Pizza",
+      "description": "Pizza is, by far, the most popular food in the world. I mean, who doesn’t like pizza? It’s a well-crafted dish, and it’s a somewhat like a round bread, covered with various stuff like tomato sauce, salami, eggs and mushrooms and baked in the oven. While this might not sound that special, it surely is, because of various spices like oregano, that you can add on top of it. It’s best when you eat it hot when it just come out of the oven. Use some ketchup or mayonnaise with your pizza, and you’ll have a great time enjoying this fantastic food all for yourself.",
+      "price": "699",
+      "rating": "4.6",
+      "author": "vikash"
+    },
+    {
+      "id": "iREYN2y",
+      "image": "https://i2.wp.com/www.foodbap.com/wp-content/uploads/2017/10/Chocolate.jpg?w=1366&ssl=1",
+      "title": "Chocklate",
+      "description": "Whether black or white, chocolate is something that, I think, 99% of people like. Chocolate is here in all shapes and sizes, and while you may like more of a black chocolate, with more cocoa, someone will like chocolates based on fruits like strawberry or even orange, which is a perfect combo with chocolate. A chocolate might not be that healthy, but there are black chocolates with a high amount of cocoa in them (around 70%) which you can eat with a solid, black wine for a perfect ending of the working day or after lunch.",
+      "price": "400",
+      "rating": "4.2",
+      "author": "rabiya"
+    },
+    {
+      "id": "Ad9JlS5",
+      "image": "https://i2.wp.com/www.foodbap.com/wp-content/uploads/2017/10/French-fries.jpg?w=1366&ssl=1",
+      "title": "French-frice",
+      "description": "French fries gained a pretty bad reputation in many health associations, and it’s not strange that this happened. I mean what’s bad about a potato? Well, in this dish, the only bad thing is an excess amount of oil in which the potato is fried. This is the most simple, yet very delicious meal for you, where you can just chop up the potato, wait for the oil to get to a high temperature and throw them in the oil. When they are fried, add spices like salt and pepper, pour over some ketchup and enjoy in moderation!",
+      "price": "350",
+      "rating": "3.5",
+      "author": "gopal"
+    },
+    {
+      "id": "h6Gbm1S",
+      "image": "https://i2.wp.com/www.foodbap.com/wp-content/uploads/2017/10/Mousaka.jpg?w=1366&ssl=1",
+      "title": "Mousaka",
+      "description": "Mousaka is a very popular dish in Europe, especially in Greece. It’s an eggplant or potato-based dish, involving ground beef or pork, milk, and eggs. You can prepare this food all by yourself by making the first layer in your pan, with potatoes, and then pour some fried ground beef over it, and then potato, and then meat, until the last layer is a potato. Add some eggs to it, and pour some milk, then put it in the oven. It’s very simple, but it’s damn delicious, and how wouldn’t it be? Meat and potatoes are an epitome of great food.",
+      "price": "233",
+      "rating": "4.95",
+      "author": "vikash"
+    },
+    {
+      "id": "uL2kNXQ",
+      "image": "https://i1.wp.com/www.foodbap.com/wp-content/uploads/2017/10/Ice-Cream.jpg?w=1366&ssl=1",
+      "title": "Ice Cream",
+      "description": "I know it’s October now, and it isn’t that great time for ice cream, however, it’s one of my, and I bet your favourite food. Those sweet, frozen snacks are something that’s going to make you happy on a very hot summer day. They come in all flavours you can imagine; you can get chocolate ice cream, strawberry ice cream, vanilla, stracciatella, banana or with chocolate topping on top. Let me whip up the saliva from my mouth and we’ll proceed to the next one!",
+      "price": "433",
+      "rating": "4.8",
+      "author": "akash"
+    },
+    {
+      "id": "nYTfj0m",
+      "image": "https://cdn.pixabay.com/photo/2015/03/04/22/35/head-659652__340.png",
+      "title": "last month my uncle got expired but i think i can manage",
+      "description": "ugydagyihjkdailuliuadflhyughda",
+      "price": "23222",
+      "rating": "4.4",
+      "author": "hdhfhhf"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

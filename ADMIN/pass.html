@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SECURITY</title>
+    <style>
+          #v-navbar{
+            display: flex;
+            height: 80px; 
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 30px;
+            background-color: aqua;
+        }
+        #v-navbar>div{
+            /* border: 1px solid; */
+            padding: 0px 20px 0px 20px;
+            border-radius: 30px;
+        }
+        #v-navbar>div:hover{
+            background-color: red;
+            color: white;
+        }
+        #v-pass{
+          /* border: 1px solid; */
+          width: 30%;
+          height: 300px;
+          margin-top: 50px;
+          border-radius: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: aquamarine;
+        }
+        input{
+          width: 70%;
+          height: 28px;
+          border-radius: 15px;
+          text-align: center;
+        }
+        button{
+          width: 70%;
+          height: 28px;
+          border-radius: 15px;
+          text-align: center;
+          background-color: blue;
+          color: white;
+          font-size: larger;
+          font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+  <!-- <H1>SECURITY</H1>   -->
+  <div id="v-navbar">
+    <div><h1><a href="../index.html">HOME</a></h1></div>
+    <div><h1><a href="login.html">LOG-IN</a></h1></div>
+</div>
+  <center>
+    <div id="v-pass">
+        <center>
+            <h4>ENTER THE UNIVARSAL SECURITY CODE</h4>
+            <H5>OR TAKE PERMISSION OF VIKASH</H5>
+            <input type="password" id="pass" placeholder="vanshusinha@8873"><BR></BR>
+            <button id="btn" onclick="pass()">submit</button>
+        </center>
+    </div>
+  </center>
+</body>
+</html>
+<script src="pass.js"></script>

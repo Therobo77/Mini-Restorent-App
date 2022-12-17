@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN-DASH_BOARD</title>
+    <style>
+         #v-navbar{
+            display: flex;
+            height: 80px; 
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 30px;
+            background-color: aqua;
+        }
+        #v-navbar>div{
+            /* border: 1px solid; */
+            padding: 0px 20px 0px 20px;
+            border-radius: 30px;
+        }
+        #v-navbar>div:hover{
+            background-color: red;
+            color: white;
+        }
+        #v-content{
+            display: grid;;
+            grid-template-columns: repeat(2,1fr);
+            gap: 40px;
+            margin-top: 30px;
+        }
+        #v-content>div{
+            border: 2px solid;
+            text-align: center;
+            padding: 20px;
+            border-radius: 16px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        img{
+            width: 100%;
+            height: 50%;
+            border-radius: 16px;
+        }
+        #buttons{
+            /* border: 1px solid; */
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            /* margin-left: 40%; */
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="v-navbar">
+        <div><h1><a href="../index.html">HOME</a></h1></div>
+        <div><h1><a href="crud.html">ADD MORE ITEMS</a></h1></div>
+    </div>
+    <div id="buttons"></div>
+    <div id="v-content"></div>
+</body>
+</html>
+<script src="dashboard.js"></script>

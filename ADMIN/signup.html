@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN-UP</title>
+    <style>
+          #v-navbar{
+            display: flex;
+            height: 80px; 
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 30px;
+            background-color: aqua;
+        }
+        #v-signup{
+          /* border: 1px solid; */
+          width: 35%;
+          height: 500px;
+          margin-top: 50px;
+          border-radius: 30px;
+          padding: 20px;
+          /* display: flex;
+          flex-direction: column;
+          align-items: center; */
+          /* justify-content: center; */
+          background-color: aquamarine;
+          /* gap: 3px; */
+        }
+        input{
+          width: 70%;
+          height: 28px;
+          border-radius: 15px;
+          text-align: center;
+        }
+        button{
+          width: 70%;
+          height: 28px;
+          border-radius: 15px;
+          text-align: center;
+          background-color: blue;
+          color: white;
+          font-size: larger;
+          font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- trrgbsgt -->
+    <div id="v-navbar">
+        <div><h1><a href="../index.html">HOME</a></h1></div>
+        <div><h1><a href="login.html">LOG-IN</a></h1></div>
+    </div>
+    <center>
+        <div id="v-signup">
+            <!-- <center> -->
+                <h1>signup</h1>
+                <input type="text" id="name" placeholder="name"><BR></BR>
+                <input type="email" id="email" placeholder="Email"><BR></BR>
+                <input type="text" id="username" placeholder="username"><BR></BR>
+                <input type="password" id="password" placeholder="password"><BR></BR>
+                <input type="tel" id="mobile" placeholder="number"><BR></BR>
+                <input type="text" id="description" placeholder="description"><BR></BR>
+                <button onclick="Register()">Register</button>
+            <!-- </center> -->
+        </div>
+    </center>
+</body>
+</html>
+
+<script src="signup.js"></script>

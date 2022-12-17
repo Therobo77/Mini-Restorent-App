@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOG_IN</title>
+    <style>
+         #v-navbar{
+            display: flex;
+            height: 80px; 
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 30px;
+            background-color: aqua;
+        }
+        #v-navbar>div{
+            /* border: 1px solid; */
+            padding: 0px 20px 0px 20px;
+            border-radius: 30px;
+        }
+        #v-navbar>div:hover{
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1>welcome to log in page</h1> -->
+    <div id="v-navbar">
+        <div><h1><a href="../index.html">HOME</a></h1></div>
+        <div><h1><a href="pass.html">SIGN-UP</a></h1></div>
+    </div>
+    <center>
+        <div id="v-login">
+            <center>
+                <h1>LOG-IN</h1>
+                <input type="text" id="login_username" placeholder="username"><BR></BR>
+                <input type="password" id="login_password" placeholder="password"><BR></BR>
+                <button onclick="Login()">Login</button>
+            </center>
+        </div>
+    </center>
+</body>
+</html>
+<script src="login.js"></script>

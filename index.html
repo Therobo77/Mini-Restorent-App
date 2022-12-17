@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOD CART</title>
+    <style>
+        *{
+            background-color: antiquewhite;
+        }
+        #v-main{
+            /* border: 1px solid; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+            gap: 40px;
+        }
+        #v-main>div{
+            border: 1px solid;
+            display: flex;
+            height: 250px;
+            width: 25%;
+            justify-content: center;
+            align-items: center;
+            border-radius: 30px;
+            background-color: aqua;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        #v-main>div:hover{
+            background-color: red;
+            cursor: pointer;
+        }
+        #v-navbar{
+            display: flex;
+            height: 80px; 
+            justify-content: center;
+            align-items: center;
+            border-radius: 30px;
+            background-color: aqua;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        #v-navbar:hover{
+            background-color: red;
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="v-navbar">स्वागतम् IN THE WORLD OF VIKASH</div>
+    <div id="v-main">
+        <div id="v-user" onclick="user()">USER</div>
+        <div id="v-admin" onclick="admin()">ADMIN</div>
+    </div>
+</body>
+</html>
+<script src="index.js"></script>
+<!-- npx json-server --watch db.json -->
